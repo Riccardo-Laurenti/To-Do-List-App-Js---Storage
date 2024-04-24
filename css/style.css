@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(4, 28, 72) !important;
+}
+
+.box {
+	background-color: white;
+    border-radius: 18px;
+    height: 33em;
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.box input {
+	border: 2px solid blue;
+    border-radius: 4px;
+	margin-top: 40px;
+	padding: 3px;
+	width: 63%;
+}
+
+.box button {
+	background: rgb(9, 84, 222);
+    color: white;
+    padding: 6px 20px;
+    margin-left: -36px;
+    border-radius: 8px;
+	border: 0;
+}
+
+#todo-view {
+    color: black;
+    width: 81%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    border: 5px solid #009fff;
+}
+
+
+.style-tsk {
+	display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+	margin-bottom: 52px;
+}
+	
+
+.contain {
+	display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.contain p {
+	transform: translateY(8px);
+	display: inline-block;
+	font-weight: 200;
+}
+
+.cest {
+	background: rgb(202, 20, 20);
+    width: 10%;
+    text-align: center;
+	transform: translateY(8px);
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.cest i {
+	color: white;
+}
+
+.not-task {
+	text-align: center;
+	font-style: italic;
+}
