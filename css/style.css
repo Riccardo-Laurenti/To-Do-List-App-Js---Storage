@@ -12,7 +12,7 @@ body {
 }
 
 .box {
-	background-color: white;
+	background-color: #d5d3d3;;
     border-radius: 18px;
     height: 33em;
     width: 50%;
@@ -38,21 +38,22 @@ body {
 }
 
 #todo-view {
-    color: black;
+	color: black;
     width: 81%;
     margin: auto;
     border-radius: 5px;
     padding: 0 12px;
     margin-bottom: 20px;
-    border: 5px solid #009fff;
+    border: 3px solid #275d07;
+    background: #b1ffb1;
 }
 
 
 .style-tsk {
 	display: flex;
     align-items: baseline;
-    justify-content: space-evenly;
-	margin-bottom: 52px;
+    justify-content: center;
+	margin-bottom: 42px;
 }
 	
 
